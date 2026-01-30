@@ -17,7 +17,7 @@ async function createRoom (req,res){
  })
 
  return res.status(200).json({
-    link:`http://localhost:3000/join/${roomId}`,
+    link:`http://localhost:5173/room/join/${roomId}`,
    room:newRoom
  })
 }
